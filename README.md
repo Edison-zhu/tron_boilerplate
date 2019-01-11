@@ -26,7 +26,7 @@
 
 最后，开发人员只需按照项目工程结构，编写自己的智能合约、前端页面及与SDK交互逻辑即可。
 
-----
+---- 
 
 ## 前置依赖
 
@@ -91,6 +91,8 @@ git clone git@github.com:ChainDesk/tron_boilerplate.git
 
 **工程结构介绍**
 ```bash
+# 项目地址: https://github.com/ChainDesk/tron_boilerplate
+# 注：待工程稳定后，可能会考虑做成插件，可使用yeoman快速构建，欢迎大家star.
 .
 ├── README.md
 ├── bin
@@ -199,7 +201,9 @@ const contractAddr = "<合约地址>";
 #### 3.4 启动react服务
 
 执行`cmd+shift+p`，调用vscode的命令列表，选择run task从中选择`npm start`即可启动前端服务。
+
 ![](https://ws3.sinaimg.cn/large/006tNc79ly1fz3883zfdlg30go091txz.gif)
+
 打开浏览器，访问http://localhost:3000， 验证是否成功。
 
 ---- 
@@ -207,17 +211,18 @@ const contractAddr = "<合约地址>";
 到此，整个工程的搭建及开发流程就介绍完毕，如中间出现任何问题欢迎加我个人微信咨询。
 
 ## 开发资料
-波场官网：https://tron.network/index?lng=zh
-波场区块链浏览器（主网）： https://tronscan.org/#/ 
-波场区块链浏览器 （测试网）https://test.tronscan.org/#/ 
-Documentation: https://github.com/tronprotocol/Documentation 
-TRON开发者文档: https://developers.tron.network/
-开发工具介绍: https://medium.com/tron-foundation/an-all-in-one-tool-suite-for-tron-developers-d048b2bc9b6c
-TRON Chrome插件集成示例：https://github.com/tronpay/TronPay-Extension 
-Tron-BIP44 implementation： https://www.npmjs.com/package/@faast/tron-payments 
-TRON开发项目模板(tron_boilerplate)：[https://github.com/ChainDesk/tron\_boilerplate](https://github.com/ChainDesk/tron_boilerplate)
+- 波场官网：https://tron.network/index?lng=zh
+- 波场区块链浏览器（主网）： https://tronscan.org/#/ 
+- 波场区块链浏览器 （测试网）https://test.tronscan.org/#/ 
+- Documentation: https://github.com/tronprotocol/Documentation 
+- TRON开发者文档: https://developers.tron.network/
+- 开发工具介绍: https://medium.com/tron-foundation/an-all-in-one-tool-suite-for-tron-developers-d048b2bc9b6c
+- TRON Chrome插件集成示例：https://github.com/tronpay/TronPay-Extension 
+- Tron-BIP44 implementation： https://www.npmjs.com/package/@faast/tron-payments 
+- TRON开发项目模板(tron_boilerplate)：[https://github.com/ChainDesk/tron\_boilerplate](https://github.com/ChainDesk/tron_boilerplate)
 
-----------
-
+---- ------
 > 在教程中如出现不易理解或存在错误的问题，欢迎加我微信指正！
 > Name: zhangliang | WeChat: rushking2009 | Mail: zhangliang@cldy.org
+
+
